@@ -1,0 +1,23 @@
+.formEl {
+  display: flex;
+  flex-direction: column;
+}
+.inputEl {
+  margin: 10px;
+}
+.labelName {
+  font-size: 25px;
+  margin-right: 45px;
+}
+.labelTel {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: #86285f;
+  border-radius: 40%;
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+}

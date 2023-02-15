@@ -1,0 +1,15 @@
+.contact {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.textContact {
+  background-color: #86285f;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+}
