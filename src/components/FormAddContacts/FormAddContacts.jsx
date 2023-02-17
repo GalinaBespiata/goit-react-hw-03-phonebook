@@ -18,6 +18,7 @@ export class FormAddContacts extends Component {
     evt.preventDefault();
 
     //
+    // 
     const contact = {
       name: this.state.name,
       number: this.state.number,
