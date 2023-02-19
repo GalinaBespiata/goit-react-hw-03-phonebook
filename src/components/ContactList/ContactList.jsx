@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
-
+import css from '../ContactList/ContactList.module.css';
 import { Contact } from '../ContactRender/ContactRender.jsx';
 
 export function ContactList({ contacts, onDeleteContact = () => {} }) {
   return (
-    <ul>
+    <ul className={css.contactList}>
       {contacts.length > 0 &&
         contacts.map(contact => {
           return (

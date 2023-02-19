@@ -3,10 +3,8 @@ import css from '../ContactRender/ContactRender.module.css';
 
 export function Contact({ contact, onDeleteContact = () => {} }) {
   return (
-    <div className={css.contact}>
-      <li key={contact.id}>
-        {contact.name} : {contact.number}
-      </li>
+    <li className={css.contact}>
+      {contact.name} : {contact.number}
       <button
         className={css.textContact}
         type="button"
@@ -14,7 +12,7 @@ export function Contact({ contact, onDeleteContact = () => {} }) {
       >
         Delete
       </button>
-    </div>
+    </li>
   );
 }
 
